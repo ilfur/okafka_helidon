@@ -38,7 +38,7 @@ public class SampleConsumer {
 
         props.put("bootstrap.servers", "127.0.0.1:1521"); //ip address or host name where instance running : port where instance listener running
         props.put("oracle.user.name", "teqdemo");
-        props.put("oracle.password", "BrunhildeZ32##");
+        props.put("oracle.password", "MyPwd3210");
 
         props.put("batch.size", 200);
         props.put("linger.ms", 100);

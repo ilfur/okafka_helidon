@@ -47,7 +47,7 @@ public class SampleProducer {
 		props.put("key.serializer", "org.oracle.okafka.common.serialization.StringSerializer");
 		props.put("value.serializer", "org.oracle.okafka.common.serialization.StringSerializer");	
 		props.put("oracle.user.name","teqdemo");
-                props.put("oracle.password","BrunhildeZ32##");
+                props.put("oracle.password","MYpwd3210");
 		System.out.println("Creating producer now 1 2 3..");	
 		  
 		prod=new KafkaProducer<String, String>(props);
